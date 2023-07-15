@@ -27,14 +27,44 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
-  <!-- =======================================================
-  * Template Name: Yummy
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .block {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: green;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .block:hover {
+      background-color: #02b01f;
+      color: white;
+    }
+    .nwblock {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: green;
+      color: white;
+      padding: 14px 28px;
+      font-size: 40px;
+      cursor: pointer;
+      
+      text-align: center;
+    }
+    
+    .nwblock:hover {
+      background-color: #02b01f;
+      color: white;
+    }
+    </style>
+
 </head>
 
 <body>
@@ -46,15 +76,15 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Yummy<span>.</span></h1>
+        <h1 style="color: green;">Kalagya<span style="color: black; font-size: 20px; margin-top: 0;"><br>Handicrafts</span></h1>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#events">Events</a></li>
+          <li><a href="#menu">Products</a></li>
+          <!-- <li><a href="#events">Events</a></li>
           <li><a href="#chefs">Chefs</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -73,12 +103,13 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
-      <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
+      <a class="btn-book-a-table" href="#">Buy Now</a>
+
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -88,7 +119,7 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
+    <!-- <div class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
@@ -100,19 +131,133 @@
         </div>
 
       </div>
-    </div><!-- End Breadcrumbs -->
+    </div> -->
 
-    <section class="sample-page">
+    <section class="sample-page" >
       <div class="container" data-aos="fade-up">
+        <br>
+        <br>
+        <br>
 
-        <p>
-          You can duplicate this sample page and create any number of inner pages you like!
-        </p>
+        
+        
 
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row no-gutters">
+            <div class="col-md-6" >
+              <img src="assets/img/gallery/gallery-3.jpg" style=" margin-left: 5px; margin-top: 5px; padding-right: 3%;" class="card-img" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-success btn-lg nwblock">Buy Now</a>
+                <!-- <a href="#" class="btn btn-primary btn-lg">Primary button</a> -->
+              </div>
+            </div>
+            
+            <div class="col-md-6" style="padding-left: 0px;">
+              <div class="card-body overflow-auto">
+                <h3 class="card-title">Item Name</h3>
+                <p class="card-text" style="font-size: 40px;">
+                  <b>₹1000&nbsp;</b><strike style="font-size: 25px; color: grey;">₹3999</strike>&nbsp;<span style="color: green; font-weight: bold; font-size: 26px;">64% off</span>
+                </p>
+                
+
+                <h6>Available offers</h6>
+                <p class="card-text">
+                  <i class="bi bi-tag-fill" style="color: green;"></i> Offer 1
+
+                </p>
+                
+
+                <h6>Features</h6>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Sustainable Choice</li>
+                  <li><i class="bi bi-check2-all"></i> Durable and Long-Lasting</li>
+                  <li><i class="bi bi-check2-all"></i> Comfortable Grip</li>
+                  <li><i class="bi bi-check2-all"></i> Unique and Elegant</li>
+                </ul>
+
+                <h6>Description</h6>
+                <p class="card-text">
+                  Description
+                  <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <br>
+        <br>
+        <h3>Similar Products</h3>
+        <br>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/img/gallery/gallery-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Item Name</h3>
+                <p class="card-text" style="font-size: 30px;">
+                  <b>₹1000&nbsp;&nbsp;</b><strike style="font-size: 20px;">₹3999</strike>&nbsp;<span style="color: green; font-weight: bold; font-size: 20px;">64% off</span>
+                </p>
+                <hr>
+                <a href="#" class="btn btn-success btn-lg block">Buy Now</a>              
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/img/gallery/gallery-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Item Name</h3>
+                <p class="card-text" style="font-size: 30px;">
+                  <b>₹1000&nbsp;&nbsp;</b><strike style="font-size: 20px;">₹3999</strike>&nbsp;<span style="color: green; font-weight: bold; font-size: 20px;">64% off</span>
+                </p>
+                <hr>
+                <a href="#" class="btn btn-success btn-lg block">Buy Now</a>              
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/img/gallery/gallery-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Item Name</h3>
+                <p class="card-text" style="font-size: 30px;">
+                  <b>₹1000&nbsp;&nbsp;</b><strike style="font-size: 20px;">₹3999</strike>&nbsp;<span style="color: green; font-weight: bold; font-size: 20px;">64% off</span>
+                </p>
+                <hr>
+                <a href="#" class="btn btn-success btn-lg block">Buy Now</a>              
+              </div>
+              <!-- <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div> -->
+            </div>
+          </div>
+          
+
+        
+
+        
+
+        </div>
       </div>
     </section>
 
   </main><!-- End #main -->
+  
+
+
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
